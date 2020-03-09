@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -103,7 +103,6 @@
 				94981179793B2F2EAC28C003 /* Pods-HimalayanTests.debug.xcconfig */,
 				F7E82827DAA5774EABEBDCF3 /* Pods-HimalayanTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -132,18 +131,11 @@
 		7A70CB112415EF3E003488EA /* Himalayan */ = {
 			isa = PBXGroup;
 			children = (
+				7A70CB4924160EEE003488EA /* Sources */,
 				7A70CB4824160C66003488EA /* Himalayan */,
 				7A70CB4724160BD0003488EA /* CommonUI */,
 				7A70CB4624160BBD003488EA /* Librarys */,
 				7A70CB4524160BAF003488EA /* Main */,
-				7A70CB122415EF3E003488EA /* AppDelegate.swift */,
-				7A70CB142415EF3E003488EA /* SceneDelegate.swift */,
-				7A70CB162415EF3E003488EA /* ViewController.swift */,
-				7A70CB182415EF3E003488EA /* Main.storyboard */,
-				7A70CB1E2415EF44003488EA /* Assets.xcassets */,
-				7A70CB202415EF44003488EA /* LaunchScreen.storyboard */,
-				7A70CB232415EF44003488EA /* Info.plist */,
-				7A70CB1B2415EF3E003488EA /* Himalayan.xcdatamodeld */,
 			);
 			path = Himalayan;
 			sourceTree = "<group>";
@@ -192,6 +184,21 @@
 			children = (
 			);
 			path = Himalayan;
+			sourceTree = "<group>";
+		};
+		7A70CB4924160EEE003488EA /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				7A70CB122415EF3E003488EA /* AppDelegate.swift */,
+				7A70CB142415EF3E003488EA /* SceneDelegate.swift */,
+				7A70CB162415EF3E003488EA /* ViewController.swift */,
+				7A70CB182415EF3E003488EA /* Main.storyboard */,
+				7A70CB1E2415EF44003488EA /* Assets.xcassets */,
+				7A70CB202415EF44003488EA /* LaunchScreen.storyboard */,
+				7A70CB232415EF44003488EA /* Info.plist */,
+				7A70CB1B2415EF3E003488EA /* Himalayan.xcdatamodeld */,
+			);
+			path = Sources;
 			sourceTree = "<group>";
 		};
 		9F09E5CD85FE46D7F5265DD5 /* Frameworks */ = {
@@ -623,7 +630,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = N2KQ965WEJ;
-				INFOPLIST_FILE = Himalayan/Info.plist;
+				INFOPLIST_FILE = Himalayan/Sources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -642,7 +650,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = N2KQ965WEJ;
-				INFOPLIST_FILE = Himalayan/Info.plist;
+				INFOPLIST_FILE = Himalayan/Sources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
