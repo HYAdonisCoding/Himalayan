@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		50E93D43F203880C961C8065 /* Pods_Himalayan_HimalayanUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FD92595CFED52ECDC28293F /* Pods_Himalayan_HimalayanUITests.framework */; };
 		7A70CB132415EF3E003488EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A70CB122415EF3E003488EA /* AppDelegate.swift */; };
 		7A70CB152415EF3E003488EA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A70CB142415EF3E003488EA /* SceneDelegate.swift */; };
 		7A70CB172415EF3E003488EA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A70CB162415EF3E003488EA /* ViewController.swift */; };
@@ -16,6 +17,8 @@
 		7A70CB222415EF44003488EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A70CB202415EF44003488EA /* LaunchScreen.storyboard */; };
 		7A70CB2D2415EF44003488EA /* HimalayanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A70CB2C2415EF44003488EA /* HimalayanTests.swift */; };
 		7A70CB382415EF44003488EA /* HimalayanUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A70CB372415EF44003488EA /* HimalayanUITests.swift */; };
+		B053E43BD46A8F6A040F4A65 /* Pods_Himalayan.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53A43B207CC4805B244B613E /* Pods_Himalayan.framework */; };
+		C14FDF0084AE56CE355437FF /* Pods_HimalayanTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0412DA728122C505085AD21C /* Pods_HimalayanTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0412DA728122C505085AD21C /* Pods_HimalayanTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HimalayanTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		26F62995FD721231CD20BB65 /* Pods-Himalayan.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Himalayan.debug.xcconfig"; path = "Target Support Files/Pods-Himalayan/Pods-Himalayan.debug.xcconfig"; sourceTree = "<group>"; };
+		53A43B207CC4805B244B613E /* Pods_Himalayan.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Himalayan.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A70CB0F2415EF3E003488EA /* Himalayan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Himalayan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A70CB122415EF3E003488EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7A70CB142415EF3E003488EA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +57,12 @@
 		7A70CB332415EF44003488EA /* HimalayanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HimalayanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A70CB372415EF44003488EA /* HimalayanUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HimalayanUITests.swift; sourceTree = "<group>"; };
 		7A70CB392415EF44003488EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7FD92595CFED52ECDC28293F /* Pods_Himalayan_HimalayanUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Himalayan_HimalayanUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		94981179793B2F2EAC28C003 /* Pods-HimalayanTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HimalayanTests.debug.xcconfig"; path = "Target Support Files/Pods-HimalayanTests/Pods-HimalayanTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A7014F9344B03A0DEB20E943 /* Pods-Himalayan.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Himalayan.release.xcconfig"; path = "Target Support Files/Pods-Himalayan/Pods-Himalayan.release.xcconfig"; sourceTree = "<group>"; };
+		C848AA9784310F3D64CE0203 /* Pods-Himalayan-HimalayanUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Himalayan-HimalayanUITests.debug.xcconfig"; path = "Target Support Files/Pods-Himalayan-HimalayanUITests/Pods-Himalayan-HimalayanUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		DAE48CDD6135955596DE5110 /* Pods-Himalayan-HimalayanUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Himalayan-HimalayanUITests.release.xcconfig"; path = "Target Support Files/Pods-Himalayan-HimalayanUITests/Pods-Himalayan-HimalayanUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F7E82827DAA5774EABEBDCF3 /* Pods-HimalayanTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HimalayanTests.release.xcconfig"; path = "Target Support Files/Pods-HimalayanTests/Pods-HimalayanTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B053E43BD46A8F6A040F4A65 /* Pods_Himalayan.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C14FDF0084AE56CE355437FF /* Pods_HimalayanTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +86,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50E93D43F203880C961C8065 /* Pods_Himalayan_HimalayanUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		44FD1E6DF51F07D14021B120 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				26F62995FD721231CD20BB65 /* Pods-Himalayan.debug.xcconfig */,
+				A7014F9344B03A0DEB20E943 /* Pods-Himalayan.release.xcconfig */,
+				C848AA9784310F3D64CE0203 /* Pods-Himalayan-HimalayanUITests.debug.xcconfig */,
+				DAE48CDD6135955596DE5110 /* Pods-Himalayan-HimalayanUITests.release.xcconfig */,
+				94981179793B2F2EAC28C003 /* Pods-HimalayanTests.debug.xcconfig */,
+				F7E82827DAA5774EABEBDCF3 /* Pods-HimalayanTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		7A70CB062415EF3E003488EA = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +114,8 @@
 				7A70CB2B2415EF44003488EA /* HimalayanTests */,
 				7A70CB362415EF44003488EA /* HimalayanUITests */,
 				7A70CB102415EF3E003488EA /* Products */,
+				44FD1E6DF51F07D14021B120 /* Pods */,
+				9F09E5CD85FE46D7F5265DD5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +132,10 @@
 		7A70CB112415EF3E003488EA /* Himalayan */ = {
 			isa = PBXGroup;
 			children = (
+				7A70CB4824160C66003488EA /* Himalayan */,
+				7A70CB4724160BD0003488EA /* CommonUI */,
+				7A70CB4624160BBD003488EA /* Librarys */,
+				7A70CB4524160BAF003488EA /* Main */,
 				7A70CB122415EF3E003488EA /* AppDelegate.swift */,
 				7A70CB142415EF3E003488EA /* SceneDelegate.swift */,
 				7A70CB162415EF3E003488EA /* ViewController.swift */,
@@ -131,6 +166,44 @@
 			path = HimalayanUITests;
 			sourceTree = "<group>";
 		};
+		7A70CB4524160BAF003488EA /* Main */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		7A70CB4624160BBD003488EA /* Librarys */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Librarys;
+			sourceTree = "<group>";
+		};
+		7A70CB4724160BD0003488EA /* CommonUI */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CommonUI;
+			sourceTree = "<group>";
+		};
+		7A70CB4824160C66003488EA /* Himalayan */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Himalayan;
+			sourceTree = "<group>";
+		};
+		9F09E5CD85FE46D7F5265DD5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				53A43B207CC4805B244B613E /* Pods_Himalayan.framework */,
+				7FD92595CFED52ECDC28293F /* Pods_Himalayan_HimalayanUITests.framework */,
+				0412DA728122C505085AD21C /* Pods_HimalayanTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,9 +211,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7A70CB3C2415EF44003488EA /* Build configuration list for PBXNativeTarget "Himalayan" */;
 			buildPhases = (
+				8E6C1ECDCC4D7024137C38E6 /* [CP] Check Pods Manifest.lock */,
 				7A70CB0B2415EF3E003488EA /* Sources */,
 				7A70CB0C2415EF3E003488EA /* Frameworks */,
 				7A70CB0D2415EF3E003488EA /* Resources */,
+				BD2DB2B0D1A26D5442A61782 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -155,6 +230,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7A70CB3F2415EF44003488EA /* Build configuration list for PBXNativeTarget "HimalayanTests" */;
 			buildPhases = (
+				ACADC64AF07F3927DDB3030A /* [CP] Check Pods Manifest.lock */,
 				7A70CB242415EF44003488EA /* Sources */,
 				7A70CB252415EF44003488EA /* Frameworks */,
 				7A70CB262415EF44003488EA /* Resources */,
@@ -173,9 +249,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7A70CB422415EF44003488EA /* Build configuration list for PBXNativeTarget "HimalayanUITests" */;
 			buildPhases = (
+				002B0EC0D99DC706EE4CF7F4 /* [CP] Check Pods Manifest.lock */,
 				7A70CB2F2415EF44003488EA /* Sources */,
 				7A70CB302415EF44003488EA /* Frameworks */,
 				7A70CB312415EF44003488EA /* Resources */,
+				5DDCEC9878D19B610EFEAB20 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -193,6 +271,7 @@
 		7A70CB072415EF3E003488EA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = HY;
 				LastSwiftUpdateCheck = 1130;
 				LastUpgradeCheck = 1130;
 				ORGANIZATIONNAME = Adonis_HongYang;
@@ -256,6 +335,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		002B0EC0D99DC706EE4CF7F4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Himalayan-HimalayanUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5DDCEC9878D19B610EFEAB20 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Himalayan-HimalayanUITests/Pods-Himalayan-HimalayanUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Himalayan-HimalayanUITests/Pods-Himalayan-HimalayanUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Himalayan-HimalayanUITests/Pods-Himalayan-HimalayanUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8E6C1ECDCC4D7024137C38E6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Himalayan-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ACADC64AF07F3927DDB3030A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HimalayanTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BD2DB2B0D1A26D5442A61782 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Himalayan/Pods-Himalayan-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Himalayan/Pods-Himalayan-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Himalayan/Pods-Himalayan-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7A70CB0B2415EF3E003488EA /* Sources */ = {
@@ -436,6 +618,7 @@
 		};
 		7A70CB3D2415EF44003488EA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26F62995FD721231CD20BB65 /* Pods-Himalayan.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -454,6 +637,7 @@
 		};
 		7A70CB3E2415EF44003488EA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7014F9344B03A0DEB20E943 /* Pods-Himalayan.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -472,6 +656,7 @@
 		};
 		7A70CB402415EF44003488EA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94981179793B2F2EAC28C003 /* Pods-HimalayanTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -494,6 +679,7 @@
 		};
 		7A70CB412415EF44003488EA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7E82827DAA5774EABEBDCF3 /* Pods-HimalayanTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -516,6 +702,7 @@
 		};
 		7A70CB432415EF44003488EA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C848AA9784310F3D64CE0203 /* Pods-Himalayan-HimalayanUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -536,6 +723,7 @@
 		};
 		7A70CB442415EF44003488EA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DAE48CDD6135955596DE5110 /* Pods-Himalayan-HimalayanUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
