@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7A70CB132415EF3E003488EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A70CB122415EF3E003488EA /* AppDelegate.swift */; };
+		7A70CB152415EF3E003488EA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A70CB142415EF3E003488EA /* SceneDelegate.swift */; };
+		7A70CB172415EF3E003488EA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A70CB162415EF3E003488EA /* ViewController.swift */; };
+		7A70CB1A2415EF3E003488EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A70CB182415EF3E003488EA /* Main.storyboard */; };
+		7A70CB1D2415EF3E003488EA /* Himalayan.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7A70CB1B2415EF3E003488EA /* Himalayan.xcdatamodeld */; };
+		7A70CB1F2415EF44003488EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A70CB1E2415EF44003488EA /* Assets.xcassets */; };
+		7A70CB222415EF44003488EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A70CB202415EF44003488EA /* LaunchScreen.storyboard */; };
+		7A70CB2D2415EF44003488EA /* HimalayanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A70CB2C2415EF44003488EA /* HimalayanTests.swift */; };
+		7A70CB382415EF44003488EA /* HimalayanUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A70CB372415EF44003488EA /* HimalayanUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7A70CB292415EF44003488EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7A70CB072415EF3E003488EA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A70CB0E2415EF3E003488EA;
+			remoteInfo = Himalayan;
+		};
+		7A70CB342415EF44003488EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7A70CB072415EF3E003488EA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A70CB0E2415EF3E003488EA;
+			remoteInfo = Himalayan;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7A70CB0F2415EF3E003488EA /* Himalayan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Himalayan.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A70CB122415EF3E003488EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7A70CB142415EF3E003488EA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		7A70CB162415EF3E003488EA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7A70CB192415EF3E003488EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7A70CB1C2415EF3E003488EA /* Himalayan.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Himalayan.xcdatamodel; sourceTree = "<group>"; };
+		7A70CB1E2415EF44003488EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7A70CB212415EF44003488EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7A70CB232415EF44003488EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A70CB282415EF44003488EA /* HimalayanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HimalayanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A70CB2C2415EF44003488EA /* HimalayanTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HimalayanTests.swift; sourceTree = "<group>"; };
+		7A70CB2E2415EF44003488EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A70CB332415EF44003488EA /* HimalayanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HimalayanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A70CB372415EF44003488EA /* HimalayanUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HimalayanUITests.swift; sourceTree = "<group>"; };
+		7A70CB392415EF44003488EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7A70CB0C2415EF3E003488EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A70CB252415EF44003488EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A70CB302415EF44003488EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7A70CB062415EF3E003488EA = {
+			isa = PBXGroup;
+			children = (
+				7A70CB112415EF3E003488EA /* Himalayan */,
+				7A70CB2B2415EF44003488EA /* HimalayanTests */,
+				7A70CB362415EF44003488EA /* HimalayanUITests */,
+				7A70CB102415EF3E003488EA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7A70CB102415EF3E003488EA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7A70CB0F2415EF3E003488EA /* Himalayan.app */,
+				7A70CB282415EF44003488EA /* HimalayanTests.xctest */,
+				7A70CB332415EF44003488EA /* HimalayanUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7A70CB112415EF3E003488EA /* Himalayan */ = {
+			isa = PBXGroup;
+			children = (
+				7A70CB122415EF3E003488EA /* AppDelegate.swift */,
+				7A70CB142415EF3E003488EA /* SceneDelegate.swift */,
+				7A70CB162415EF3E003488EA /* ViewController.swift */,
+				7A70CB182415EF3E003488EA /* Main.storyboard */,
+				7A70CB1E2415EF44003488EA /* Assets.xcassets */,
+				7A70CB202415EF44003488EA /* LaunchScreen.storyboard */,
+				7A70CB232415EF44003488EA /* Info.plist */,
+				7A70CB1B2415EF3E003488EA /* Himalayan.xcdatamodeld */,
+			);
+			path = Himalayan;
+			sourceTree = "<group>";
+		};
+		7A70CB2B2415EF44003488EA /* HimalayanTests */ = {
+			isa = PBXGroup;
+			children = (
+				7A70CB2C2415EF44003488EA /* HimalayanTests.swift */,
+				7A70CB2E2415EF44003488EA /* Info.plist */,
+			);
+			path = HimalayanTests;
+			sourceTree = "<group>";
+		};
+		7A70CB362415EF44003488EA /* HimalayanUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7A70CB372415EF44003488EA /* HimalayanUITests.swift */,
+				7A70CB392415EF44003488EA /* Info.plist */,
+			);
+			path = HimalayanUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7A70CB0E2415EF3E003488EA /* Himalayan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A70CB3C2415EF44003488EA /* Build configuration list for PBXNativeTarget "Himalayan" */;
+			buildPhases = (
+				7A70CB0B2415EF3E003488EA /* Sources */,
+				7A70CB0C2415EF3E003488EA /* Frameworks */,
+				7A70CB0D2415EF3E003488EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Himalayan;
+			productName = Himalayan;
+			productReference = 7A70CB0F2415EF3E003488EA /* Himalayan.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7A70CB272415EF44003488EA /* HimalayanTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A70CB3F2415EF44003488EA /* Build configuration list for PBXNativeTarget "HimalayanTests" */;
+			buildPhases = (
+				7A70CB242415EF44003488EA /* Sources */,
+				7A70CB252415EF44003488EA /* Frameworks */,
+				7A70CB262415EF44003488EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7A70CB2A2415EF44003488EA /* PBXTargetDependency */,
+			);
+			name = HimalayanTests;
+			productName = HimalayanTests;
+			productReference = 7A70CB282415EF44003488EA /* HimalayanTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7A70CB322415EF44003488EA /* HimalayanUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A70CB422415EF44003488EA /* Build configuration list for PBXNativeTarget "HimalayanUITests" */;
+			buildPhases = (
+				7A70CB2F2415EF44003488EA /* Sources */,
+				7A70CB302415EF44003488EA /* Frameworks */,
+				7A70CB312415EF44003488EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7A70CB352415EF44003488EA /* PBXTargetDependency */,
+			);
+			name = HimalayanUITests;
+			productName = HimalayanUITests;
+			productReference = 7A70CB332415EF44003488EA /* HimalayanUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7A70CB072415EF3E003488EA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = Adonis_HongYang;
+				TargetAttributes = {
+					7A70CB0E2415EF3E003488EA = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					7A70CB272415EF44003488EA = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 7A70CB0E2415EF3E003488EA;
+					};
+					7A70CB322415EF44003488EA = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 7A70CB0E2415EF3E003488EA;
+					};
+				};
+			};
+			buildConfigurationList = 7A70CB0A2415EF3E003488EA /* Build configuration list for PBXProject "Himalayan" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7A70CB062415EF3E003488EA;
+			productRefGroup = 7A70CB102415EF3E003488EA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7A70CB0E2415EF3E003488EA /* Himalayan */,
+				7A70CB272415EF44003488EA /* HimalayanTests */,
+				7A70CB322415EF44003488EA /* HimalayanUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7A70CB0D2415EF3E003488EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A70CB222415EF44003488EA /* LaunchScreen.storyboard in Resources */,
+				7A70CB1F2415EF44003488EA /* Assets.xcassets in Resources */,
+				7A70CB1A2415EF3E003488EA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A70CB262415EF44003488EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A70CB312415EF44003488EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7A70CB0B2415EF3E003488EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A70CB172415EF3E003488EA /* ViewController.swift in Sources */,
+				7A70CB132415EF3E003488EA /* AppDelegate.swift in Sources */,
+				7A70CB1D2415EF3E003488EA /* Himalayan.xcdatamodeld in Sources */,
+				7A70CB152415EF3E003488EA /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A70CB242415EF44003488EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A70CB2D2415EF44003488EA /* HimalayanTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A70CB2F2415EF44003488EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A70CB382415EF44003488EA /* HimalayanUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7A70CB2A2415EF44003488EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7A70CB0E2415EF3E003488EA /* Himalayan */;
+			targetProxy = 7A70CB292415EF44003488EA /* PBXContainerItemProxy */;
+		};
+		7A70CB352415EF44003488EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7A70CB0E2415EF3E003488EA /* Himalayan */;
+			targetProxy = 7A70CB342415EF44003488EA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7A70CB182415EF3E003488EA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7A70CB192415EF3E003488EA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7A70CB202415EF44003488EA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7A70CB212415EF44003488EA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7A70CB3A2415EF44003488EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7A70CB3B2415EF44003488EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7A70CB3D2415EF44003488EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N2KQ965WEJ;
+				INFOPLIST_FILE = Himalayan/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Nikoyo.Himalayan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7A70CB3E2415EF44003488EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N2KQ965WEJ;
+				INFOPLIST_FILE = Himalayan/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Nikoyo.Himalayan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7A70CB402415EF44003488EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N2KQ965WEJ;
+				INFOPLIST_FILE = HimalayanTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Nikoyo.HimalayanTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Himalayan.app/Himalayan";
+			};
+			name = Debug;
+		};
+		7A70CB412415EF44003488EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N2KQ965WEJ;
+				INFOPLIST_FILE = HimalayanTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Nikoyo.HimalayanTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Himalayan.app/Himalayan";
+			};
+			name = Release;
+		};
+		7A70CB432415EF44003488EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N2KQ965WEJ;
+				INFOPLIST_FILE = HimalayanUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Nikoyo.HimalayanUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Himalayan;
+			};
+			name = Debug;
+		};
+		7A70CB442415EF44003488EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N2KQ965WEJ;
+				INFOPLIST_FILE = HimalayanUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Nikoyo.HimalayanUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Himalayan;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7A70CB0A2415EF3E003488EA /* Build configuration list for PBXProject "Himalayan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A70CB3A2415EF44003488EA /* Debug */,
+				7A70CB3B2415EF44003488EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A70CB3C2415EF44003488EA /* Build configuration list for PBXNativeTarget "Himalayan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A70CB3D2415EF44003488EA /* Debug */,
+				7A70CB3E2415EF44003488EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A70CB3F2415EF44003488EA /* Build configuration list for PBXNativeTarget "HimalayanTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A70CB402415EF44003488EA /* Debug */,
+				7A70CB412415EF44003488EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A70CB422415EF44003488EA /* Build configuration list for PBXNativeTarget "HimalayanUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A70CB432415EF44003488EA /* Debug */,
+				7A70CB442415EF44003488EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7A70CB1B2415EF3E003488EA /* Himalayan.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7A70CB1C2415EF3E003488EA /* Himalayan.xcdatamodel */,
+			);
+			currentVersion = 7A70CB1C2415EF3E003488EA /* Himalayan.xcdatamodel */;
+			path = Himalayan.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 7A70CB072415EF3E003488EA /* Project object */;
+}
