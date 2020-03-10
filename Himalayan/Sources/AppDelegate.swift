@@ -9,15 +9,23 @@
 import UIKit
 import CoreData
 
-@available(iOS 13.0, *)
+
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-
+    var window: UIWindow?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        // 静态图片引导页
+        self.setStacicGuidePage()
         return true
+    }
+    
+    func setStacicGuidePage() {
+        let imageNameArray: [String] = ["lead01", "lead02", "lead03"]
+        let guideView = HHGuidePageHUD.init(imageNameArray: imageNameArray, isHiddenSkipButton: false)
+        self.window?.rootViewController?.view.addSubview(guideView)
     }
 
     // MARK: UISceneSession Lifecycle
