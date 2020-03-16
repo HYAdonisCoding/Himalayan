@@ -34,7 +34,31 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let tabBarVC = ESTabBarController()
         tabBarVC.delegate = delegate
         tabBarVC.title = "Irregularity"
+        tabBarVC.tabBar.shadowImage = UIImage.init(named: "transparent")
+        tabBarVC.shouldHijackHandler = {
+            tabBarVC, viewController, index in
+            if index == 2 {
+                return true
+            }
+            return false
+        }
+        tabBarVC.didHijackHandler = {
+            [weak tabBarVC] tabbarVC, viewController, index in
+            DispatchQueue.main.asyncAfter(deadline: .now() + 0.2) {
+                //
+                
+            }
+        }
         
+        let vc1 = HYHomeViewController()
+        let vc2 = HYListenViewController()
+        let vc3 = HYPlayViewController()
+        let vc4 = HYFindViewController()
+        let vc5 = HYMineViewController()
+        
+//        vc1.tabBarItem = ESTabBarItem.init(YYIrregularityBasicContentView(), title: "Home", image: UIImage(named: "home"), selectedImage: UIImage(named: "home_1"), tag: 0)
+        
+        let n1 = 
         
     }
     // MARK: UISceneSession Lifecycle
