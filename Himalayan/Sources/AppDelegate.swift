@@ -8,7 +8,7 @@
 
 import UIKit
 import CoreData
-
+import ESTabBarController_swift
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -16,6 +16,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+//        let tab = self.cus
+        
         // Override point for customization after application launch.
         // 静态图片引导页
         self.setStacicGuidePage()
@@ -28,6 +30,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         self.window?.rootViewController?.view.addSubview(guideView)
     }
 
+    func customIrregularityStyle(delegate: UITabBarControllerDelegate?) -> ESTabBarController {
+        let tabBarVC = ESTabBarController()
+        tabBarVC.delegate = delegate
+        tabBarVC.title = "Irregularity"
+        
+        
+    }
     // MARK: UISceneSession Lifecycle
 
     @available(iOS 13.0, *)
