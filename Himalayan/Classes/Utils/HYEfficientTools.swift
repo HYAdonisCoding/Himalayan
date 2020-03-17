@@ -57,7 +57,13 @@ class HYEfficientTools {
         tabBarVC.didHijackHandler = {
             [weak tabBarVC] tabbarVC, viewController, index in
             DispatchQueue.main.asyncAfter(deadline: .now() + 0.2) {
-                //
+                // play
+                let vc = HYPlayViewController()
+                let n1 = HYNavigationController.init(rootViewController: vc)
+                n1.modalPresentationStyle = .fullScreen
+                tabBarVC?.present(n1, animated: true, completion: {
+                    
+                })
                 
             }
         }
@@ -83,6 +89,14 @@ class HYEfficientTools {
         let n3 = HYNavigationController.init(rootViewController: vc3)
         let n4 = HYNavigationController.init(rootViewController: vc4)
         let n5 = HYNavigationController.init(rootViewController: vc5)
+        n1.navigationBar.isTranslucent = true
+        n2.navigationBar.isTranslucent = true
+        n3.navigationBar.isTranslucent = true
+        n4.navigationBar.isTranslucent = true
+        n5.navigationBar.isTranslucent = true
+        ///
+        n1.navigationBar.shadowImage = UIImage()
+        
         tabBarVC.viewControllers = [n1, n2, n3, n4, n5]
         return tabBarVC
     }

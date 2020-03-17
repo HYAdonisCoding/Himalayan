@@ -27,8 +27,6 @@
 		7A73F7412417952000D7A1CD /* HHGuidePageHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A73F72E2417952000D7A1CD /* HHGuidePageHUD.swift */; };
 		7A73F7422417952000D7A1CD /* YYCustomLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A73F7302417952000D7A1CD /* YYCustomLabel.swift */; };
 		7A73F7432417952000D7A1CD /* JCyclePictureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A73F7322417952000D7A1CD /* JCyclePictureView.swift */; };
-		7A73F7442417952000D7A1CD /* WRNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A73F7342417952000D7A1CD /* WRNavigationBar.swift */; };
-		7A73F7452417952000D7A1CD /* WRCustomNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A73F7352417952000D7A1CD /* WRCustomNavigationBar.swift */; };
 		7A73F7462417952000D7A1CD /* WRProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A73F7372417952000D7A1CD /* WRProxy.swift */; };
 		7A73F7472417952000D7A1CD /* WRCycleScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A73F7382417952000D7A1CD /* WRCycleScrollView.swift */; };
 		7A73F7482417952000D7A1CD /* WRCycleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A73F7392417952000D7A1CD /* WRCycleCell.swift */; };
@@ -44,6 +42,8 @@
 		7A83DC482420624200084637 /* Const.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A83DC472420624200084637 /* Const.swift */; };
 		7A83DC4B2420772800084637 /* HYEfficientTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A83DC4A2420772800084637 /* HYEfficientTools.swift */; };
 		7A83DC4D24209FB300084637 /* HYBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A83DC4C24209FB300084637 /* HYBaseViewController.swift */; };
+		7A83DC912420BEAD00084637 /* WRNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A83DC8F2420BEAC00084637 /* WRNavigationBar.swift */; };
+		7A83DC922420BEAD00084637 /* WRCustomNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A83DC902420BEAD00084637 /* WRCustomNavigationBar.swift */; };
 		B053E43BD46A8F6A040F4A65 /* Pods_Himalayan.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53A43B207CC4805B244B613E /* Pods_Himalayan.framework */; };
 		C14FDF0084AE56CE355437FF /* Pods_HimalayanTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0412DA728122C505085AD21C /* Pods_HimalayanTests.framework */; };
 /* End PBXBuildFile section */
@@ -96,8 +96,6 @@
 		7A73F72E2417952000D7A1CD /* HHGuidePageHUD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HHGuidePageHUD.swift; sourceTree = "<group>"; };
 		7A73F7302417952000D7A1CD /* YYCustomLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YYCustomLabel.swift; sourceTree = "<group>"; };
 		7A73F7322417952000D7A1CD /* JCyclePictureView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JCyclePictureView.swift; sourceTree = "<group>"; };
-		7A73F7342417952000D7A1CD /* WRNavigationBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WRNavigationBar.swift; sourceTree = "<group>"; };
-		7A73F7352417952000D7A1CD /* WRCustomNavigationBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WRCustomNavigationBar.swift; sourceTree = "<group>"; };
 		7A73F7372417952000D7A1CD /* WRProxy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WRProxy.swift; sourceTree = "<group>"; };
 		7A73F7382417952000D7A1CD /* WRCycleScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WRCycleScrollView.swift; sourceTree = "<group>"; };
 		7A73F7392417952000D7A1CD /* WRCycleCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WRCycleCell.swift; sourceTree = "<group>"; };
@@ -113,6 +111,8 @@
 		7A83DC472420624200084637 /* Const.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Const.swift; sourceTree = "<group>"; };
 		7A83DC4A2420772800084637 /* HYEfficientTools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HYEfficientTools.swift; sourceTree = "<group>"; };
 		7A83DC4C24209FB300084637 /* HYBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HYBaseViewController.swift; sourceTree = "<group>"; };
+		7A83DC8F2420BEAC00084637 /* WRNavigationBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WRNavigationBar.swift; sourceTree = "<group>"; };
+		7A83DC902420BEAD00084637 /* WRCustomNavigationBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WRCustomNavigationBar.swift; sourceTree = "<group>"; };
 		7FD92595CFED52ECDC28293F /* Pods_Himalayan_HimalayanUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Himalayan_HimalayanUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		94981179793B2F2EAC28C003 /* Pods-HimalayanTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HimalayanTests.debug.xcconfig"; path = "Target Support Files/Pods-HimalayanTests/Pods-HimalayanTests.debug.xcconfig"; sourceTree = "<group>"; };
 		A7014F9344B03A0DEB20E943 /* Pods-Himalayan.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Himalayan.release.xcconfig"; path = "Target Support Files/Pods-Himalayan/Pods-Himalayan.release.xcconfig"; sourceTree = "<group>"; };
@@ -243,11 +243,11 @@
 		7A70CB4824160C66003488EA /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				7A83DC24241F847F00084637 /* Home */,
 				7A83DC30241F858A00084637 /* Mine */,
 				7A83DC2F241F858000084637 /* Find */,
 				7A83DC2E241F857800084637 /* Play */,
 				7A83DC2D241F856E00084637 /* Listen */,
-				7A83DC24241F847F00084637 /* Home */,
 				7A70CB4724160BD0003488EA /* CommonUI */,
 				7A70CB4624160BBD003488EA /* Librarys */,
 				7A70CB4524160BAF003488EA /* Main */,
@@ -275,9 +275,9 @@
 		7A73F7232417951F00D7A1CD /* yh_navgation */ = {
 			isa = PBXGroup;
 			children = (
+				7A73F7262417951F00D7A1CD /* UINavigationBar+YHIndicatorImage.h */,
 				7A73F7242417951F00D7A1CD /* UINavigationBar+YHIndicatorImage.m */,
 				7A73F7252417951F00D7A1CD /* UINavigationController+YHBackTitle.h */,
-				7A73F7262417951F00D7A1CD /* UINavigationBar+YHIndicatorImage.h */,
 				7A73F7272417951F00D7A1CD /* UINavigationController+YHBackTitle.m */,
 			);
 			path = yh_navgation;
@@ -315,8 +315,8 @@
 		7A73F7332417952000D7A1CD /* WRNavigationBar */ = {
 			isa = PBXGroup;
 			children = (
-				7A73F7342417952000D7A1CD /* WRNavigationBar.swift */,
-				7A73F7352417952000D7A1CD /* WRCustomNavigationBar.swift */,
+				7A83DC902420BEAD00084637 /* WRCustomNavigationBar.swift */,
+				7A83DC8F2420BEAC00084637 /* WRNavigationBar.swift */,
 				7A73F7362417952000D7A1CD /* WRCycleScrollView */,
 			);
 			path = WRNavigationBar;
@@ -684,16 +684,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A83DC912420BEAD00084637 /* WRNavigationBar.swift in Sources */,
 				7A73F73B2417952000D7A1CD /* UINavigationController+YHBackTitle.m in Sources */,
 				7A83DC3B241F85ED00084637 /* HYListenViewController.swift in Sources */,
 				7A83DC44241F87C400084637 /* HYBouncesContentView.swift in Sources */,
 				7A73F7432417952000D7A1CD /* JCyclePictureView.swift in Sources */,
 				7A83DC3D241F85FE00084637 /* HYHomeViewController.swift in Sources */,
 				7A83DC3F241F875500084637 /* HYNavigationController.swift in Sources */,
-				7A73F7442417952000D7A1CD /* WRNavigationBar.swift in Sources */,
 				7A83DC42241F879300084637 /* HYBasicContentView.swift in Sources */,
 				7A83DC35241F85BE00084637 /* HYPlayViewController.swift in Sources */,
 				7A70CB172415EF3E003488EA /* ViewController.swift in Sources */,
+				7A83DC922420BEAD00084637 /* WRCustomNavigationBar.swift in Sources */,
 				7A73F7482417952000D7A1CD /* WRCycleCell.swift in Sources */,
 				7A83DC46241F87E500084637 /* HYIrregularityBasicContentView.swift in Sources */,
 				7A83DC4B2420772800084637 /* HYEfficientTools.swift in Sources */,
@@ -702,7 +703,6 @@
 				7A83DC4D24209FB300084637 /* HYBaseViewController.swift in Sources */,
 				7A73F7412417952000D7A1CD /* HHGuidePageHUD.swift in Sources */,
 				7A73F7472417952000D7A1CD /* WRCycleScrollView.swift in Sources */,
-				7A73F7452417952000D7A1CD /* WRCustomNavigationBar.swift in Sources */,
 				7A83DC37241F85D300084637 /* HYFindViewController.swift in Sources */,
 				7A83DC39241F85E200084637 /* HYMineViewController.swift in Sources */,
 				7A83DC482420624200084637 /* Const.swift in Sources */,
