@@ -8,7 +8,7 @@
 
 import UIKit
 
-class HYMineViewController: UIViewController {
+class HYMineViewController: HYBaseViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

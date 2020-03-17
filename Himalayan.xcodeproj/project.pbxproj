@@ -41,6 +41,9 @@
 		7A83DC42241F879300084637 /* HYBasicContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A83DC41241F879300084637 /* HYBasicContentView.swift */; };
 		7A83DC44241F87C400084637 /* HYBouncesContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A83DC43241F87C400084637 /* HYBouncesContentView.swift */; };
 		7A83DC46241F87E500084637 /* HYIrregularityBasicContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A83DC45241F87E500084637 /* HYIrregularityBasicContentView.swift */; };
+		7A83DC482420624200084637 /* Const.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A83DC472420624200084637 /* Const.swift */; };
+		7A83DC4B2420772800084637 /* HYEfficientTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A83DC4A2420772800084637 /* HYEfficientTools.swift */; };
+		7A83DC4D24209FB300084637 /* HYBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A83DC4C24209FB300084637 /* HYBaseViewController.swift */; };
 		B053E43BD46A8F6A040F4A65 /* Pods_Himalayan.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53A43B207CC4805B244B613E /* Pods_Himalayan.framework */; };
 		C14FDF0084AE56CE355437FF /* Pods_HimalayanTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0412DA728122C505085AD21C /* Pods_HimalayanTests.framework */; };
 /* End PBXBuildFile section */
@@ -107,6 +110,9 @@
 		7A83DC41241F879300084637 /* HYBasicContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HYBasicContentView.swift; sourceTree = "<group>"; };
 		7A83DC43241F87C400084637 /* HYBouncesContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HYBouncesContentView.swift; sourceTree = "<group>"; };
 		7A83DC45241F87E500084637 /* HYIrregularityBasicContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HYIrregularityBasicContentView.swift; sourceTree = "<group>"; };
+		7A83DC472420624200084637 /* Const.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Const.swift; sourceTree = "<group>"; };
+		7A83DC4A2420772800084637 /* HYEfficientTools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HYEfficientTools.swift; sourceTree = "<group>"; };
+		7A83DC4C24209FB300084637 /* HYBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HYBaseViewController.swift; sourceTree = "<group>"; };
 		7FD92595CFED52ECDC28293F /* Pods_Himalayan_HimalayanUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Himalayan_HimalayanUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		94981179793B2F2EAC28C003 /* Pods-HimalayanTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HimalayanTests.debug.xcconfig"; path = "Target Support Files/Pods-HimalayanTests/Pods-HimalayanTests.debug.xcconfig"; sourceTree = "<group>"; };
 		A7014F9344B03A0DEB20E943 /* Pods-Himalayan.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Himalayan.release.xcconfig"; path = "Target Support Files/Pods-Himalayan/Pods-Himalayan.release.xcconfig"; sourceTree = "<group>"; };
@@ -182,10 +188,7 @@
 			isa = PBXGroup;
 			children = (
 				7A70CB4924160EEE003488EA /* Sources */,
-				7A70CB4824160C66003488EA /* Himalayan */,
-				7A70CB4724160BD0003488EA /* CommonUI */,
-				7A70CB4624160BBD003488EA /* Librarys */,
-				7A70CB4524160BAF003488EA /* Main */,
+				7A70CB4824160C66003488EA /* Classes */,
 			);
 			path = Himalayan;
 			sourceTree = "<group>";
@@ -213,6 +216,7 @@
 			children = (
 				7A83DC40241F875E00084637 /* TabBarView */,
 				7A83DC3E241F875500084637 /* HYNavigationController.swift */,
+				7A83DC4C24209FB300084637 /* HYBaseViewController.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -236,7 +240,7 @@
 			path = CommonUI;
 			sourceTree = "<group>";
 		};
-		7A70CB4824160C66003488EA /* Himalayan */ = {
+		7A70CB4824160C66003488EA /* Classes */ = {
 			isa = PBXGroup;
 			children = (
 				7A83DC30241F858A00084637 /* Mine */,
@@ -244,8 +248,12 @@
 				7A83DC2E241F857800084637 /* Play */,
 				7A83DC2D241F856E00084637 /* Listen */,
 				7A83DC24241F847F00084637 /* Home */,
+				7A70CB4724160BD0003488EA /* CommonUI */,
+				7A70CB4624160BBD003488EA /* Librarys */,
+				7A70CB4524160BAF003488EA /* Main */,
+				7A83DC492420769800084637 /* Utils */,
 			);
-			path = Himalayan;
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		7A70CB4924160EEE003488EA /* Sources */ = {
@@ -259,6 +267,7 @@
 				7A70CB202415EF44003488EA /* LaunchScreen.storyboard */,
 				7A70CB232415EF44003488EA /* Info.plist */,
 				7A70CB1B2415EF3E003488EA /* Himalayan.xcdatamodeld */,
+				7A83DC472420624200084637 /* Const.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -411,6 +420,14 @@
 				7A83DC45241F87E500084637 /* HYIrregularityBasicContentView.swift */,
 			);
 			path = TabBarView;
+			sourceTree = "<group>";
+		};
+		7A83DC492420769800084637 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				7A83DC4A2420772800084637 /* HYEfficientTools.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 		9F09E5CD85FE46D7F5265DD5 /* Frameworks */ = {
@@ -679,13 +696,16 @@
 				7A70CB172415EF3E003488EA /* ViewController.swift in Sources */,
 				7A73F7482417952000D7A1CD /* WRCycleCell.swift in Sources */,
 				7A83DC46241F87E500084637 /* HYIrregularityBasicContentView.swift in Sources */,
+				7A83DC4B2420772800084637 /* HYEfficientTools.swift in Sources */,
 				7A73F73C2417952000D7A1CD /* UIImage+GIF.swift in Sources */,
 				7A73F7422417952000D7A1CD /* YYCustomLabel.swift in Sources */,
+				7A83DC4D24209FB300084637 /* HYBaseViewController.swift in Sources */,
 				7A73F7412417952000D7A1CD /* HHGuidePageHUD.swift in Sources */,
 				7A73F7472417952000D7A1CD /* WRCycleScrollView.swift in Sources */,
 				7A73F7452417952000D7A1CD /* WRCustomNavigationBar.swift in Sources */,
 				7A83DC37241F85D300084637 /* HYFindViewController.swift in Sources */,
 				7A83DC39241F85E200084637 /* HYMineViewController.swift in Sources */,
+				7A83DC482420624200084637 /* Const.swift in Sources */,
 				7A70CB132415EF3E003488EA /* AppDelegate.swift in Sources */,
 				7A73F7462417952000D7A1CD /* WRProxy.swift in Sources */,
 				7A70CB1D2415EF3E003488EA /* Himalayan.xcdatamodeld in Sources */,

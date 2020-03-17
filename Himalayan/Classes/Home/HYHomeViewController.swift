@@ -1,5 +1,5 @@
 //
-//  HYFindViewController.swift
+//  HYHomeViewController.swift
 //  Himalayan
 //
 //  Created by Adonis_HongYang on 2020/3/16.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class HYFindViewController: UIViewController {
+class HYHomeViewController: HYBaseViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

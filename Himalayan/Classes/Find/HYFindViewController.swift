@@ -1,5 +1,5 @@
 //
-//  HYNavigationController.swift
+//  HYFindViewController.swift
 //  Himalayan
 //
 //  Created by Adonis_HongYang on 2020/3/16.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class HYNavigationController: UINavigationController {
+class HYFindViewController: HYBaseViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

@@ -8,7 +8,7 @@
 
 import UIKit
 import CoreData
-import ESTabBarController_swift
+
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -16,51 +16,26 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-//        let tab = self.cus
-        
-        // Override point for customization after application launch.
+       let tab = HYEfficientTools().customIrregularityStyle(delegate: self as? UITabBarControllerDelegate)
+        self.window?.rootViewController = tab
+        self.window?.makeKeyAndVisible()
         // 静态图片引导页
-        self.setStacicGuidePage()
+//        self.window?.rootViewController?.view.addSubview(HYEfficientTools().setStacicGuidePage())
+        // 动态图片引导页
+//        self.window?.rootViewController?.view.addSubview(HYEfficientTools().setDynamicGuidePage())
+        // 视频引导页
+//        self.window?.rootViewController?.view.addSubview(HYEfficientTools().setStacicGuidePage())
+        
+//        let tab = .customIrregularityStyle(delegate: self as? UITabBarControllerDelegate )
+//        self.window?.rootViewController = tab
+//        self.window?.makeKeyAndVisible()
+//        // Override point for customization after application launch.
+//        // 静态图片引导页
+//        self.setStacicGuidePage()
         return true
     }
     
-    func setStacicGuidePage() {
-        let imageNameArray: [String] = ["lead01", "lead02", "lead03"]
-        let guideView = HHGuidePageHUD.init(imageNameArray: imageNameArray, isHiddenSkipButton: false)
-        self.window?.rootViewController?.view.addSubview(guideView)
-    }
-
-    func customIrregularityStyle(delegate: UITabBarControllerDelegate?) -> ESTabBarController {
-        let tabBarVC = ESTabBarController()
-        tabBarVC.delegate = delegate
-        tabBarVC.title = "Irregularity"
-        tabBarVC.tabBar.shadowImage = UIImage.init(named: "transparent")
-        tabBarVC.shouldHijackHandler = {
-            tabBarVC, viewController, index in
-            if index == 2 {
-                return true
-            }
-            return false
-        }
-        tabBarVC.didHijackHandler = {
-            [weak tabBarVC] tabbarVC, viewController, index in
-            DispatchQueue.main.asyncAfter(deadline: .now() + 0.2) {
-                //
-                
-            }
-        }
-        
-        let vc1 = HYHomeViewController()
-        let vc2 = HYListenViewController()
-        let vc3 = HYPlayViewController()
-        let vc4 = HYFindViewController()
-        let vc5 = HYMineViewController()
-        
-//        vc1.tabBarItem = ESTabBarItem.init(YYIrregularityBasicContentView(), title: "Home", image: UIImage(named: "home"), selectedImage: UIImage(named: "home_1"), tag: 0)
-        
-        let n1 = 
-        
-    }
+    
     // MARK: UISceneSession Lifecycle
 
     @available(iOS 13.0, *)

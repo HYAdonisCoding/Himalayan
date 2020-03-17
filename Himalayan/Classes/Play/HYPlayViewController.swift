@@ -1,5 +1,5 @@
 //
-//  HYHomeViewController.swift
+//  HYPlayViewController.swift
 //  Himalayan
 //
 //  Created by Adonis_HongYang on 2020/3/16.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class HYHomeViewController: UIViewController {
+class HYPlayViewController: HYBaseViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
