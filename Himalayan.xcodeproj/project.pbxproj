@@ -49,6 +49,30 @@
 		7A83DC982420C2E100084637 /* HYHomeVIPController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A83DC972420C2E100084637 /* HYHomeVIPController.swift */; };
 		7A83DC9A2420C2F700084637 /* HYHomeClassifyController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A83DC992420C2F700084637 /* HYHomeClassifyController.swift */; };
 		7A83DC9C2420C31200084637 /* HYHomeRecommendController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A83DC9B2420C31200084637 /* HYHomeRecommendController.swift */; };
+		7AA5818A2421BCC900D476B8 /* URefresh.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA581892421BCC900D476B8 /* URefresh.swift */; };
+		7AA5818C2421C37600D476B8 /* HomeRecommendViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA5818B2421C37600D476B8 /* HomeRecommendViewModel.swift */; };
+		7AC4D19C2420C80D00ACAC2A /* HYRecommendAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC4D19B2420C80D00ACAC2A /* HYRecommendAPI.swift */; };
+		7AC4D19E2420C87700ACAC2A /* HYHomeBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC4D19D2420C87700ACAC2A /* HYHomeBaseViewController.swift */; };
+		7AC4D1A02420C8AD00ACAC2A /* HYWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC4D19F2420C8AD00ACAC2A /* HYWebViewController.swift */; };
+		7AC4D1A22420CAA900ACAC2A /* HYHomeRecommendModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC4D1A12420CAA900ACAC2A /* HYHomeRecommendModel.swift */; };
+		7AC4D1A42420CE3E00ACAC2A /* RecommendForYouCCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC4D1A32420CE3E00ACAC2A /* RecommendForYouCCell.swift */; };
+		7AC4D1A62420CE5700ACAC2A /* HYRecommendForYouCCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC4D1A52420CE5700ACAC2A /* HYRecommendForYouCCell.swift */; };
+		7AC4D1A82420CE8100ACAC2A /* HYBaseCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC4D1A72420CE8100ACAC2A /* HYBaseCollectionViewCell.swift */; };
+		7AC4D1AA2420CF0B00ACAC2A /* HYRecommendGuessLikeCCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC4D1A92420CF0B00ACAC2A /* HYRecommendGuessLikeCCell.swift */; };
+		7AC4D1AC2420CFF000ACAC2A /* RecommendGuessLikeCCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC4D1AB2420CFF000ACAC2A /* RecommendGuessLikeCCell.swift */; };
+		7AC4D1AE2420D01100ACAC2A /* HotAudiobookCCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC4D1AD2420D01100ACAC2A /* HotAudiobookCCell.swift */; };
+		7AC4D1B02420D02E00ACAC2A /* HYHotAudiobookCCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC4D1AF2420D02E00ACAC2A /* HYHotAudiobookCCell.swift */; };
+		7AC4D1B22420D04E00ACAC2A /* OneKeyListenCCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC4D1B12420D04E00ACAC2A /* OneKeyListenCCell.swift */; };
+		7AC4D1B42420D06000ACAC2A /* HYOneKeyListenCCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC4D1B32420D06000ACAC2A /* HYOneKeyListenCCell.swift */; };
+		7AC4D1B62420D08100ACAC2A /* HYRecommendHeaderCCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC4D1B52420D08100ACAC2A /* HYRecommendHeaderCCell.swift */; };
+		7AC4D1B82420D09500ACAC2A /* HYRecommendGridCCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC4D1B72420D09500ACAC2A /* HYRecommendGridCCell.swift */; };
+		7AC4D1BA2420D0A800ACAC2A /* RecommendNewsCCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC4D1B92420D0A800ACAC2A /* RecommendNewsCCell.swift */; };
+		7AC4D1BC2420D0BB00ACAC2A /* HYAdvertCCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC4D1BB2420D0BB00ACAC2A /* HYAdvertCCell.swift */; };
+		7AC4D1BE2420D0CD00ACAC2A /* HomeRecommendLiveCCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC4D1BD2420D0CD00ACAC2A /* HomeRecommendLiveCCell.swift */; };
+		7AC4D1C02420D0FE00ACAC2A /* RecommendLiveCCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC4D1BF2420D0FE00ACAC2A /* RecommendLiveCCell.swift */; };
+		7AC4D1C22420D14300ACAC2A /* HYBaseCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC4D1C12420D14300ACAC2A /* HYBaseCollectionReusableView.swift */; };
+		7AC4D1C42420D19400ACAC2A /* HYRecommendHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC4D1C32420D19400ACAC2A /* HYRecommendHeaderView.swift */; };
+		7AC4D1C62420D1A900ACAC2A /* HYRecommendFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC4D1C52420D1A900ACAC2A /* HYRecommendFooterView.swift */; };
 		B053E43BD46A8F6A040F4A65 /* Pods_Himalayan.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53A43B207CC4805B244B613E /* Pods_Himalayan.framework */; };
 		C14FDF0084AE56CE355437FF /* Pods_HimalayanTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0412DA728122C505085AD21C /* Pods_HimalayanTests.framework */; };
 /* End PBXBuildFile section */
@@ -123,6 +147,30 @@
 		7A83DC972420C2E100084637 /* HYHomeVIPController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HYHomeVIPController.swift; sourceTree = "<group>"; };
 		7A83DC992420C2F700084637 /* HYHomeClassifyController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HYHomeClassifyController.swift; sourceTree = "<group>"; };
 		7A83DC9B2420C31200084637 /* HYHomeRecommendController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HYHomeRecommendController.swift; sourceTree = "<group>"; };
+		7AA581892421BCC900D476B8 /* URefresh.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URefresh.swift; sourceTree = "<group>"; };
+		7AA5818B2421C37600D476B8 /* HomeRecommendViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRecommendViewModel.swift; sourceTree = "<group>"; };
+		7AC4D19B2420C80D00ACAC2A /* HYRecommendAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HYRecommendAPI.swift; sourceTree = "<group>"; };
+		7AC4D19D2420C87700ACAC2A /* HYHomeBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HYHomeBaseViewController.swift; sourceTree = "<group>"; };
+		7AC4D19F2420C8AD00ACAC2A /* HYWebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HYWebViewController.swift; sourceTree = "<group>"; };
+		7AC4D1A12420CAA900ACAC2A /* HYHomeRecommendModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HYHomeRecommendModel.swift; sourceTree = "<group>"; };
+		7AC4D1A32420CE3E00ACAC2A /* RecommendForYouCCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendForYouCCell.swift; sourceTree = "<group>"; };
+		7AC4D1A52420CE5700ACAC2A /* HYRecommendForYouCCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HYRecommendForYouCCell.swift; sourceTree = "<group>"; };
+		7AC4D1A72420CE8100ACAC2A /* HYBaseCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HYBaseCollectionViewCell.swift; sourceTree = "<group>"; };
+		7AC4D1A92420CF0B00ACAC2A /* HYRecommendGuessLikeCCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HYRecommendGuessLikeCCell.swift; sourceTree = "<group>"; };
+		7AC4D1AB2420CFF000ACAC2A /* RecommendGuessLikeCCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendGuessLikeCCell.swift; sourceTree = "<group>"; };
+		7AC4D1AD2420D01100ACAC2A /* HotAudiobookCCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotAudiobookCCell.swift; sourceTree = "<group>"; };
+		7AC4D1AF2420D02E00ACAC2A /* HYHotAudiobookCCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HYHotAudiobookCCell.swift; sourceTree = "<group>"; };
+		7AC4D1B12420D04E00ACAC2A /* OneKeyListenCCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneKeyListenCCell.swift; sourceTree = "<group>"; };
+		7AC4D1B32420D06000ACAC2A /* HYOneKeyListenCCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HYOneKeyListenCCell.swift; sourceTree = "<group>"; };
+		7AC4D1B52420D08100ACAC2A /* HYRecommendHeaderCCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HYRecommendHeaderCCell.swift; sourceTree = "<group>"; };
+		7AC4D1B72420D09500ACAC2A /* HYRecommendGridCCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HYRecommendGridCCell.swift; sourceTree = "<group>"; };
+		7AC4D1B92420D0A800ACAC2A /* RecommendNewsCCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendNewsCCell.swift; sourceTree = "<group>"; };
+		7AC4D1BB2420D0BB00ACAC2A /* HYAdvertCCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HYAdvertCCell.swift; sourceTree = "<group>"; };
+		7AC4D1BD2420D0CD00ACAC2A /* HomeRecommendLiveCCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRecommendLiveCCell.swift; sourceTree = "<group>"; };
+		7AC4D1BF2420D0FE00ACAC2A /* RecommendLiveCCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendLiveCCell.swift; sourceTree = "<group>"; };
+		7AC4D1C12420D14300ACAC2A /* HYBaseCollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HYBaseCollectionReusableView.swift; sourceTree = "<group>"; };
+		7AC4D1C32420D19400ACAC2A /* HYRecommendHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HYRecommendHeaderView.swift; sourceTree = "<group>"; };
+		7AC4D1C52420D1A900ACAC2A /* HYRecommendFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HYRecommendFooterView.swift; sourceTree = "<group>"; };
 		7FD92595CFED52ECDC28293F /* Pods_Himalayan_HimalayanUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Himalayan_HimalayanUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		94981179793B2F2EAC28C003 /* Pods-HimalayanTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HimalayanTests.debug.xcconfig"; path = "Target Support Files/Pods-HimalayanTests/Pods-HimalayanTests.debug.xcconfig"; sourceTree = "<group>"; };
 		A7014F9344B03A0DEB20E943 /* Pods-Himalayan.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Himalayan.release.xcconfig"; path = "Target Support Files/Pods-Himalayan/Pods-Himalayan.release.xcconfig"; sourceTree = "<group>"; };
@@ -227,6 +275,8 @@
 				7A83DC40241F875E00084637 /* TabBarView */,
 				7A83DC3E241F875500084637 /* HYNavigationController.swift */,
 				7A83DC4C24209FB300084637 /* HYBaseViewController.swift */,
+				7AC4D1A72420CE8100ACAC2A /* HYBaseCollectionViewCell.swift */,
+				7AC4D1C12420D14300ACAC2A /* HYBaseCollectionReusableView.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -246,6 +296,7 @@
 		7A70CB4724160BD0003488EA /* CommonUI */ = {
 			isa = PBXGroup;
 			children = (
+				7AA581882421BC8D00D476B8 /* Refresh */,
 			);
 			path = CommonUI;
 			sourceTree = "<group>";
@@ -346,11 +397,13 @@
 			isa = PBXGroup;
 			children = (
 				7A83DC3C241F85FE00084637 /* HYHomeViewController.swift */,
+				7AC4D19D2420C87700ACAC2A /* HYHomeBaseViewController.swift */,
+				7AC4D19F2420C8AD00ACAC2A /* HYWebViewController.swift */,
+				7A83DC28241F851300084637 /* Recommend */,
 				7A83DC2C241F854800084637 /* Broadcast */,
 				7A83DC2B241F854000084637 /* Live */,
 				7A83DC2A241F852F00084637 /* VIP */,
 				7A83DC29241F851F00084637 /* Classify */,
-				7A83DC28241F851300084637 /* Recommend */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -359,6 +412,10 @@
 			isa = PBXGroup;
 			children = (
 				7A83DC9B2420C31200084637 /* HYHomeRecommendController.swift */,
+				7AC4D1972420C77C00ACAC2A /* ViewModel */,
+				7AC4D1982420C78800ACAC2A /* Model */,
+				7AC4D1992420C79100ACAC2A /* View */,
+				7AC4D19A2420C7D300ACAC2A /* API */,
 			);
 			path = Recommend;
 			sourceTree = "<group>";
@@ -445,6 +502,61 @@
 			path = Utils;
 			sourceTree = "<group>";
 		};
+		7AA581882421BC8D00D476B8 /* Refresh */ = {
+			isa = PBXGroup;
+			children = (
+				7AA581892421BCC900D476B8 /* URefresh.swift */,
+			);
+			path = Refresh;
+			sourceTree = "<group>";
+		};
+		7AC4D1972420C77C00ACAC2A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				7AA5818B2421C37600D476B8 /* HomeRecommendViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		7AC4D1982420C78800ACAC2A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7AC4D1A12420CAA900ACAC2A /* HYHomeRecommendModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7AC4D1992420C79100ACAC2A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7AC4D1A32420CE3E00ACAC2A /* RecommendForYouCCell.swift */,
+				7AC4D1A52420CE5700ACAC2A /* HYRecommendForYouCCell.swift */,
+				7AC4D1A92420CF0B00ACAC2A /* HYRecommendGuessLikeCCell.swift */,
+				7AC4D1AB2420CFF000ACAC2A /* RecommendGuessLikeCCell.swift */,
+				7AC4D1AD2420D01100ACAC2A /* HotAudiobookCCell.swift */,
+				7AC4D1AF2420D02E00ACAC2A /* HYHotAudiobookCCell.swift */,
+				7AC4D1B12420D04E00ACAC2A /* OneKeyListenCCell.swift */,
+				7AC4D1B32420D06000ACAC2A /* HYOneKeyListenCCell.swift */,
+				7AC4D1B52420D08100ACAC2A /* HYRecommendHeaderCCell.swift */,
+				7AC4D1B72420D09500ACAC2A /* HYRecommendGridCCell.swift */,
+				7AC4D1B92420D0A800ACAC2A /* RecommendNewsCCell.swift */,
+				7AC4D1BB2420D0BB00ACAC2A /* HYAdvertCCell.swift */,
+				7AC4D1BD2420D0CD00ACAC2A /* HomeRecommendLiveCCell.swift */,
+				7AC4D1BF2420D0FE00ACAC2A /* RecommendLiveCCell.swift */,
+				7AC4D1C32420D19400ACAC2A /* HYRecommendHeaderView.swift */,
+				7AC4D1C52420D1A900ACAC2A /* HYRecommendFooterView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7AC4D19A2420C7D300ACAC2A /* API */ = {
+			isa = PBXGroup;
+			children = (
+				7AC4D19B2420C80D00ACAC2A /* HYRecommendAPI.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
 		9F09E5CD85FE46D7F5265DD5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -467,6 +579,7 @@
 				7A70CB0C2415EF3E003488EA /* Frameworks */,
 				7A70CB0D2415EF3E003488EA /* Resources */,
 				BD2DB2B0D1A26D5442A61782 /* [CP] Embed Pods Frameworks */,
+				7A7C93202422011A00691A6B /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -631,6 +744,23 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Himalayan-HimalayanUITests/Pods-Himalayan-HimalayanUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		7A7C93202422011A00691A6B /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "TAGS=\"TODO:|FIXME:\"\necho \"searching ${SRCROOT} for ${TAGS}\"\nfind \"${SRCROOT}\" \\( -name \"*.swift\" \\) -print0 | xargs -0 egrep --with-filename --line-number --only-matching \"($TAGS).*\\$\" | perl -p -e \"s/($TAGS)/ warning: \\$1/\"\n\n";
+		};
 		8E6C1ECDCC4D7024137C38E6 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -702,34 +832,58 @@
 				7A83DC912420BEAD00084637 /* WRNavigationBar.swift in Sources */,
 				7A83DC9A2420C2F700084637 /* HYHomeClassifyController.swift in Sources */,
 				7A83DC9C2420C31200084637 /* HYHomeRecommendController.swift in Sources */,
+				7AC4D1AE2420D01100ACAC2A /* HotAudiobookCCell.swift in Sources */,
 				7A73F73B2417952000D7A1CD /* UINavigationController+YHBackTitle.m in Sources */,
 				7A83DC3B241F85ED00084637 /* HYListenViewController.swift in Sources */,
+				7AA5818C2421C37600D476B8 /* HomeRecommendViewModel.swift in Sources */,
 				7A83DC44241F87C400084637 /* HYBouncesContentView.swift in Sources */,
+				7AC4D1AC2420CFF000ACAC2A /* RecommendGuessLikeCCell.swift in Sources */,
 				7A73F7432417952000D7A1CD /* JCyclePictureView.swift in Sources */,
+				7AC4D1B82420D09500ACAC2A /* HYRecommendGridCCell.swift in Sources */,
+				7AC4D1C42420D19400ACAC2A /* HYRecommendHeaderView.swift in Sources */,
+				7AC4D19E2420C87700ACAC2A /* HYHomeBaseViewController.swift in Sources */,
+				7AC4D1BE2420D0CD00ACAC2A /* HomeRecommendLiveCCell.swift in Sources */,
 				7A83DC3D241F85FE00084637 /* HYHomeViewController.swift in Sources */,
 				7A83DC3F241F875500084637 /* HYNavigationController.swift in Sources */,
 				7A83DC42241F879300084637 /* HYBasicContentView.swift in Sources */,
 				7A83DC35241F85BE00084637 /* HYPlayViewController.swift in Sources */,
 				7A70CB172415EF3E003488EA /* ViewController.swift in Sources */,
 				7A83DC922420BEAD00084637 /* WRCustomNavigationBar.swift in Sources */,
+				7AC4D1B62420D08100ACAC2A /* HYRecommendHeaderCCell.swift in Sources */,
+				7AC4D1A22420CAA900ACAC2A /* HYHomeRecommendModel.swift in Sources */,
 				7A73F7482417952000D7A1CD /* WRCycleCell.swift in Sources */,
 				7A83DC46241F87E500084637 /* HYIrregularityBasicContentView.swift in Sources */,
 				7A83DC4B2420772800084637 /* HYEfficientTools.swift in Sources */,
+				7AC4D19C2420C80D00ACAC2A /* HYRecommendAPI.swift in Sources */,
 				7A73F73C2417952000D7A1CD /* UIImage+GIF.swift in Sources */,
 				7A73F7422417952000D7A1CD /* YYCustomLabel.swift in Sources */,
+				7AC4D1A62420CE5700ACAC2A /* HYRecommendForYouCCell.swift in Sources */,
 				7A83DC4D24209FB300084637 /* HYBaseViewController.swift in Sources */,
 				7A83DC962420C2CC00084637 /* HYHomeLiveController.swift in Sources */,
 				7A73F7412417952000D7A1CD /* HHGuidePageHUD.swift in Sources */,
+				7AC4D1A82420CE8100ACAC2A /* HYBaseCollectionViewCell.swift in Sources */,
 				7A83DC982420C2E100084637 /* HYHomeVIPController.swift in Sources */,
 				7A73F7472417952000D7A1CD /* WRCycleScrollView.swift in Sources */,
+				7AC4D1AA2420CF0B00ACAC2A /* HYRecommendGuessLikeCCell.swift in Sources */,
 				7A83DC37241F85D300084637 /* HYFindViewController.swift in Sources */,
 				7A83DC39241F85E200084637 /* HYMineViewController.swift in Sources */,
 				7A83DC482420624200084637 /* Const.swift in Sources */,
+				7AA5818A2421BCC900D476B8 /* URefresh.swift in Sources */,
+				7AC4D1B42420D06000ACAC2A /* HYOneKeyListenCCell.swift in Sources */,
+				7AC4D1C62420D1A900ACAC2A /* HYRecommendFooterView.swift in Sources */,
 				7A70CB132415EF3E003488EA /* AppDelegate.swift in Sources */,
+				7AC4D1B22420D04E00ACAC2A /* OneKeyListenCCell.swift in Sources */,
 				7A73F7462417952000D7A1CD /* WRProxy.swift in Sources */,
 				7A70CB1D2415EF3E003488EA /* Himalayan.xcdatamodeld in Sources */,
+				7AC4D1A42420CE3E00ACAC2A /* RecommendForYouCCell.swift in Sources */,
+				7AC4D1C22420D14300ACAC2A /* HYBaseCollectionReusableView.swift in Sources */,
 				7A70CB152415EF3E003488EA /* SceneDelegate.swift in Sources */,
+				7AC4D1B02420D02E00ACAC2A /* HYHotAudiobookCCell.swift in Sources */,
+				7AC4D1C02420D0FE00ACAC2A /* RecommendLiveCCell.swift in Sources */,
+				7AC4D1BC2420D0BB00ACAC2A /* HYAdvertCCell.swift in Sources */,
 				7A73F73A2417952000D7A1CD /* UINavigationBar+YHIndicatorImage.m in Sources */,
+				7AC4D1BA2420D0A800ACAC2A /* RecommendNewsCCell.swift in Sources */,
+				7AC4D1A02420C8AD00ACAC2A /* HYWebViewController.swift in Sources */,
 				7A83DC942420C2AB00084637 /* HYHomeBroadcastController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
