@@ -85,7 +85,7 @@ extension HomeRecommendViewModel {
     }
     
     /// 最小 item 间距
-    func minmumInteritemSpacingForSectionAt(section: Int) -> CGFloat {
+    func minimumInteritemSpacingForSectionAt(section: Int) -> CGFloat {
         return 0
     }
     

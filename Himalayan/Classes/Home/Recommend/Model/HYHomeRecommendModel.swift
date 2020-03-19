@@ -359,7 +359,7 @@ struct LiveModel: HandyJSON {
 //}
 
 
-struct RecommnedAdvertModel: HandyJSON {
+struct RecommendAdvertModel: HandyJSON {
     var shareData: AdvertShareData?
     var isShareFlag: Bool = false
     var thirdStatUrl: String?

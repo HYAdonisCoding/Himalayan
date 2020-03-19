@@ -20,7 +20,7 @@ class HYBaseViewController: UIViewController {
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        print("\(self) viewWillAppear")
+//        print("\(self) viewWillAppear")
     }
 
     /*

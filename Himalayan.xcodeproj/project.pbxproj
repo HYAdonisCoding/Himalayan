@@ -30,6 +30,12 @@
 		7A73F7462417952000D7A1CD /* WRProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A73F7372417952000D7A1CD /* WRProxy.swift */; };
 		7A73F7472417952000D7A1CD /* WRCycleScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A73F7382417952000D7A1CD /* WRCycleScrollView.swift */; };
 		7A73F7482417952000D7A1CD /* WRCycleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A73F7392417952000D7A1CD /* WRCycleCell.swift */; };
+		7A7B796D24234DB000FCCBFC /* ClassifySubContentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7B796C24234DB000FCCBFC /* ClassifySubContentController.swift */; };
+		7A7B796F24234ED800FCCBFC /* ClassifySubRecommendController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7B796E24234ED800FCCBFC /* ClassifySubRecommendController.swift */; };
+		7A7C93232423107300691A6B /* ReplicatorLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7C93222423107300691A6B /* ReplicatorLayer.swift */; };
+		7A7C9325242340D900691A6B /* HomeGuessYouLikeMoreController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7C9324242340D900691A6B /* HomeGuessYouLikeMoreController.swift */; };
+		7A7C93282423458400691A6B /* ClassifySubMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7C93272423458400691A6B /* ClassifySubMenuController.swift */; };
+		7A7C932B2423468600691A6B /* ClassifySubMenuModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7C932A2423468600691A6B /* ClassifySubMenuModel.swift */; };
 		7A83DC35241F85BE00084637 /* HYPlayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A83DC34241F85BE00084637 /* HYPlayViewController.swift */; };
 		7A83DC37241F85D300084637 /* HYFindViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A83DC36241F85D300084637 /* HYFindViewController.swift */; };
 		7A83DC39241F85E200084637 /* HYMineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A83DC38241F85E200084637 /* HYMineViewController.swift */; };
@@ -128,6 +134,12 @@
 		7A73F7372417952000D7A1CD /* WRProxy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WRProxy.swift; sourceTree = "<group>"; };
 		7A73F7382417952000D7A1CD /* WRCycleScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WRCycleScrollView.swift; sourceTree = "<group>"; };
 		7A73F7392417952000D7A1CD /* WRCycleCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WRCycleCell.swift; sourceTree = "<group>"; };
+		7A7B796C24234DB000FCCBFC /* ClassifySubContentController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassifySubContentController.swift; sourceTree = "<group>"; };
+		7A7B796E24234ED800FCCBFC /* ClassifySubRecommendController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassifySubRecommendController.swift; sourceTree = "<group>"; };
+		7A7C93222423107300691A6B /* ReplicatorLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReplicatorLayer.swift; sourceTree = "<group>"; };
+		7A7C9324242340D900691A6B /* HomeGuessYouLikeMoreController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeGuessYouLikeMoreController.swift; sourceTree = "<group>"; };
+		7A7C93272423458400691A6B /* ClassifySubMenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassifySubMenuController.swift; sourceTree = "<group>"; };
+		7A7C932A2423468600691A6B /* ClassifySubMenuModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassifySubMenuModel.swift; sourceTree = "<group>"; };
 		7A83DC34241F85BE00084637 /* HYPlayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HYPlayViewController.swift; sourceTree = "<group>"; };
 		7A83DC36241F85D300084637 /* HYFindViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HYFindViewController.swift; sourceTree = "<group>"; };
 		7A83DC38241F85E200084637 /* HYMineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HYMineViewController.swift; sourceTree = "<group>"; };
@@ -296,6 +308,7 @@
 		7A70CB4724160BD0003488EA /* CommonUI */ = {
 			isa = PBXGroup;
 			children = (
+				7A7C93212423106100691A6B /* ReplicatorLayer */,
 				7AA581882421BC8D00D476B8 /* Refresh */,
 			);
 			path = CommonUI;
@@ -393,6 +406,39 @@
 			path = WRCycleScrollView;
 			sourceTree = "<group>";
 		};
+		7A7C93212423106100691A6B /* ReplicatorLayer */ = {
+			isa = PBXGroup;
+			children = (
+				7A7C93222423107300691A6B /* ReplicatorLayer.swift */,
+			);
+			path = ReplicatorLayer;
+			sourceTree = "<group>";
+		};
+		7A7C93262423456000691A6B /* SubMenu */ = {
+			isa = PBXGroup;
+			children = (
+				7A7C93272423458400691A6B /* ClassifySubMenuController.swift */,
+				7A7B796C24234DB000FCCBFC /* ClassifySubContentController.swift */,
+				7A7B796E24234ED800FCCBFC /* ClassifySubRecommendController.swift */,
+			);
+			path = SubMenu;
+			sourceTree = "<group>";
+		};
+		7A7C93292423467300691A6B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7A7C932A2423468600691A6B /* ClassifySubMenuModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7A7C932C2423475200691A6B /* API */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
 		7A83DC24241F847F00084637 /* Home */ = {
 			isa = PBXGroup;
 			children = (
@@ -412,6 +458,7 @@
 			isa = PBXGroup;
 			children = (
 				7A83DC9B2420C31200084637 /* HYHomeRecommendController.swift */,
+				7A7C9324242340D900691A6B /* HomeGuessYouLikeMoreController.swift */,
 				7AC4D1972420C77C00ACAC2A /* ViewModel */,
 				7AC4D1982420C78800ACAC2A /* Model */,
 				7AC4D1992420C79100ACAC2A /* View */,
@@ -423,7 +470,10 @@
 		7A83DC29241F851F00084637 /* Classify */ = {
 			isa = PBXGroup;
 			children = (
+				7A7C932C2423475200691A6B /* API */,
+				7A7C93292423467300691A6B /* Model */,
 				7A83DC992420C2F700084637 /* HYHomeClassifyController.swift */,
+				7A7C93262423456000691A6B /* SubMenu */,
 			);
 			path = Classify;
 			sourceTree = "<group>";
@@ -836,9 +886,11 @@
 				7A73F73B2417952000D7A1CD /* UINavigationController+YHBackTitle.m in Sources */,
 				7A83DC3B241F85ED00084637 /* HYListenViewController.swift in Sources */,
 				7AA5818C2421C37600D476B8 /* HomeRecommendViewModel.swift in Sources */,
+				7A7C93232423107300691A6B /* ReplicatorLayer.swift in Sources */,
 				7A83DC44241F87C400084637 /* HYBouncesContentView.swift in Sources */,
 				7AC4D1AC2420CFF000ACAC2A /* RecommendGuessLikeCCell.swift in Sources */,
 				7A73F7432417952000D7A1CD /* JCyclePictureView.swift in Sources */,
+				7A7C932B2423468600691A6B /* ClassifySubMenuModel.swift in Sources */,
 				7AC4D1B82420D09500ACAC2A /* HYRecommendGridCCell.swift in Sources */,
 				7AC4D1C42420D19400ACAC2A /* HYRecommendHeaderView.swift in Sources */,
 				7AC4D19E2420C87700ACAC2A /* HYHomeBaseViewController.swift in Sources */,
@@ -860,13 +912,17 @@
 				7AC4D1A62420CE5700ACAC2A /* HYRecommendForYouCCell.swift in Sources */,
 				7A83DC4D24209FB300084637 /* HYBaseViewController.swift in Sources */,
 				7A83DC962420C2CC00084637 /* HYHomeLiveController.swift in Sources */,
+				7A7B796D24234DB000FCCBFC /* ClassifySubContentController.swift in Sources */,
 				7A73F7412417952000D7A1CD /* HHGuidePageHUD.swift in Sources */,
 				7AC4D1A82420CE8100ACAC2A /* HYBaseCollectionViewCell.swift in Sources */,
 				7A83DC982420C2E100084637 /* HYHomeVIPController.swift in Sources */,
 				7A73F7472417952000D7A1CD /* WRCycleScrollView.swift in Sources */,
+				7A7C9325242340D900691A6B /* HomeGuessYouLikeMoreController.swift in Sources */,
 				7AC4D1AA2420CF0B00ACAC2A /* HYRecommendGuessLikeCCell.swift in Sources */,
+				7A7C93282423458400691A6B /* ClassifySubMenuController.swift in Sources */,
 				7A83DC37241F85D300084637 /* HYFindViewController.swift in Sources */,
 				7A83DC39241F85E200084637 /* HYMineViewController.swift in Sources */,
+				7A7B796F24234ED800FCCBFC /* ClassifySubRecommendController.swift in Sources */,
 				7A83DC482420624200084637 /* Const.swift in Sources */,
 				7AA5818A2421BCC900D476B8 /* URefresh.swift in Sources */,
 				7AC4D1B42420D06000ACAC2A /* HYOneKeyListenCCell.swift in Sources */,

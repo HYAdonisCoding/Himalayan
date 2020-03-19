@@ -1,20 +1,29 @@
 //
-//  HYHomeClassifyController.swift
+//  ClassifySubRecommendController.swift
 //  Himalayan
 //
-//  Created by Adonis_HongYang on 2020/3/17.
+//  Created by Adonis_HongYang on 2020/3/19.
 //  Copyright © 2020 Adonis_HongYang. All rights reserved.
 //
 
 import UIKit
 
-
-class HYHomeClassifyController: HYBaseViewController {
-
+class ClassifySubRecommendController: HYBaseViewController {
+    private var categoryId: Int = 0
+    convenience init(categoryId: Int = 0) {
+        self.init()
+        self.categoryId = categoryId
+    }
+    
+    required init?(coder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        // TODO: 等待将来回来做: <#DESC#>
+        print("等待将来回来做")
     }
     
 

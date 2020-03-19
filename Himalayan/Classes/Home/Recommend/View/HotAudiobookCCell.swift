@@ -138,8 +138,52 @@ class HotAudiobookCCell: HYBaseCollectionViewCell {
         didSet {
             guard let model = recommendData else { return }
             if model.pic != nil {
-                <#code#>
+                self.picView.kf.setImage(with: URL(string: model.pic!))
             }
+            if model.coverPath != nil {
+                self.picView.kf.setImage(with: URL(string: model.coverPath!))
+            }
+            self.titleLabel.text = model.title
+            self.subLabel.text = model.subtitle
+            if model.isPaid {
+                self.paidLabel.isHidden = true
+                self.paidLabel.snp.updateConstraints { $0.width.equalTo(0) }
+                self.titleLabel.snp.updateConstraints { $0.left.equalTo(self.paidLabel.snp.right) }
+            }
+            self.tracksLabel.text = "\(model.tracksCount)集"
+            var tagString: String?
+            if model.playsCount > 100000000 {
+                tagString = String(format: "%.1f亿", Double(model.playsCount)/100000000)
+            } else if model.playsCount > 10000 {
+                tagString = String(format: "%.1f万", Double(model.playsCount)/10000)
+            } else {
+                tagString = "\(model.playsCount)"
+            }
+            self.numLabel.text = tagString
+        }
+    }
+    
+    var guessYouLikeModel: GuessYouLikeModel? {
+        didSet {
+            guard let model = guessYouLikeModel else { return }
+            self.titleLabel.text = model.title
+            self.picView.kf.setImage(with: URL(string: model.coverMiddle!))
+            self.subLabel.text = model.recReason
+            if model.isPaid {
+                self.paidLabel.isHidden = true
+                self.paidLabel.snp.updateConstraints { $0.width.equalTo(0) }
+                self.titleLabel.snp.updateConstraints { $0.left.equalTo(self.paidLabel.snp.right) }
+            }
+            self.tracksLabel.text = "\(model.tracks)集"
+            var tagString: String?
+            if model.playsCount > 100000000 {
+                tagString = String(format: "%.1f亿", Double(model.playsCount)/100000000)
+            } else if model.playsCount > 10000 {
+                tagString = String(format: "%.1f万", Double(model.playsCount)/10000)
+            } else {
+                tagString = "\(model.playsCount)"
+            }
+            self.numLabel.text = tagString
         }
     }
 
