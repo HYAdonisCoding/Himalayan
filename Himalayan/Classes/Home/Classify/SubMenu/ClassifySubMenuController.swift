@@ -24,10 +24,6 @@ class ClassifySubMenuController: HYBaseViewController {
     private var nameArray = NSMutableArray()
     private var keywordArray = NSMutableArray()
     
-    required init?(coder: NSCoder) {
-        fatalError("init(coder:) has not been implemented")
-    }
-    
     override func viewDidLoad() {
         super.viewDidLoad()
 

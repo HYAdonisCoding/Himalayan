@@ -20,7 +20,7 @@ class RecommendNewsCCell: HYBaseCollectionViewCell {
     
     private lazy var moreBtn: UIButton = {
         let name = UIButton.init(type: UIButton.ButtonType.custom)
-        name.setTitle("| 更多", for: UIControl.State.normal)
+        name.setTitle("|  更多", for: UIControl.State.normal)
         name.setTitleColor(UIColor.gray, for: UIControl.State.normal)
         name.titleLabel?.font = UIFont.systemFont(ofSize: 15)
         return name
@@ -31,7 +31,8 @@ class RecommendNewsCCell: HYBaseCollectionViewCell {
         layout.sectionInset = UIEdgeInsets(top: 0, left: 0, bottom: 0, right: 0)
         layout.minimumInteritemSpacing = 0
         layout.minimumLineSpacing = 0
-        let name = UICollectionView.init(frame: .zero, collectionViewLayout: layout)
+        layout.itemSize = CGSize(width: (ScreenWidth-150), height:40)
+        let name = UICollectionView.init(frame: CGRect(x: 80,y: 5, width: ScreenWidth-150, height: 40), collectionViewLayout: layout)
         layout.scrollDirection = UICollectionView.ScrollDirection.vertical
         name.contentSize = CGSize(width: (ScreenWidth-150), height: 40)
         name.delegate = self
@@ -60,7 +61,7 @@ class RecommendNewsCCell: HYBaseCollectionViewCell {
     override func setupUI() {
         self.addSubview(self.imageView)
         self.imageView.snp.makeConstraints {
-            $0.left.equalToSuperview().offset(-5)
+            $0.left.equalToSuperview().offset(10)
             $0.width.equalTo(60)
             $0.height.equalTo(30)
             $0.top.equalTo(10)
@@ -73,9 +74,6 @@ class RecommendNewsCCell: HYBaseCollectionViewCell {
             $0.top.equalTo(6)
         }
         self.addSubview(self.collectionView)
-        // FIXME: 未来记得回来修改哦: 没约束啊
-        print("未来记得回来修改哦")
-
     }
     
     var topBuzzList: [TopBuzzModel]? {
@@ -141,7 +139,7 @@ class NewsCell: HYBaseCollectionViewCell {
     override func setupUI() {
         self.addSubview(self.titleLabel)
         self.titleLabel.snp.makeConstraints {
-            $0.edges.equalToSuperview()
+            $0.left.right.height.top.equalToSuperview()
         }
     }
 }

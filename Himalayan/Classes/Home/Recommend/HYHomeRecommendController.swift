@@ -133,8 +133,8 @@ extension HYHomeRecommendController: UICollectionViewDelegate, UICollectionViewD
                 cell.adModel = self.recommendAdvertList?[0]
             } else if indexPath.section == 13 {
                 cell.adModel = self.recommendAdvertList?[1]
-            } else if indexPath.section == 17 {
-                cell.adModel = self.recommendAdvertList?[2]
+//            } else if indexPath.section == 17 {
+//                cell.adModel = self.recommendAdvertList?[2]
             }
             return cell
         } else if moduleType == "oneKeyListen" {
@@ -238,8 +238,9 @@ extension HYHomeRecommendController: HYRecommendHeaderCellDelegate {
                 SwiftMessages.show(config: warningConfig, view: warning)
                 
             } else {
-                // TODO: 等待将来回来做: ClassifySubMenuController
-                print("等待将来回来做")
+                let vc = ClassifySubMenuController(categoryId: Int(categoryId)!)
+                vc.title = title
+                self.navigationController?.pushViewController(vc, animated: true)
             }
         } else {
             let vc = HYWebViewController(url: url)
@@ -249,10 +250,15 @@ extension HYHomeRecommendController: HYRecommendHeaderCellDelegate {
     }
     
     func recommendHeaderBannerClick(url: String) {
-        let status = MessageView.viewFromNib(layout: .statusLine)
+        let status = MessageView.viewFromNib(layout: .messageView)
         status.backgroundView.backgroundColor = DominantColor
         status.bodyLabel?.textColor = UIColor.white
         status.configureContent(body: "哎呀呀!咋没反应呢???")
+        status.configureContent(title: "Sorry", body: "哎呀呀!咋没反应呢???")
+        status.button?.setTitle("点我", for: UIControl.State.normal)
+        status.buttonTapHandler = { (btn) in
+            print("点击了按钮")
+        }
         var statusConfig = SwiftMessages.defaultConfig
         statusConfig.presentationContext = .window(windowLevel: UIWindow.Level.normal)
         statusConfig.preferredStatusBarStyle = .lightContent
@@ -260,6 +266,7 @@ extension HYHomeRecommendController: HYRecommendHeaderCellDelegate {
     }
 }
 
+// MARK: -点击猜你喜欢cell代理方法
 extension HYHomeRecommendController: HYRecommendGuessLikeCCellDelegate {
     func recommendGGuessLikeCellItemClick(model: RecommendListModel) {
         // TODO: 等待将来回来做: 1234
@@ -269,6 +276,7 @@ extension HYHomeRecommendController: HYRecommendGuessLikeCCellDelegate {
     
 }
 
+// MARK: -点击热门有声书等cell代理方法
 extension HYHomeRecommendController: HYHotAudiobookCCellDelegate {
     func hotAudiobookCCellItemClick(model: RecommendListModel) {
         // TODO: 等待将来回来做: <#DESC#>

@@ -132,12 +132,16 @@ extension HYRecommendHeaderCCell: UICollectionViewDelegate, UICollectionViewData
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize{
         if indexPath.section == 0 {
-            return CGSize.init(width: (ScreenWidth-5), height: 80)
+            return CGSize.init(width: (ScreenWidth-5)/5, height: 80)
         } else {
             return CGSize.init(width: ScreenWidth, height: 50)
         }
     }
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        if self.square!.count <= 0 {
+            print("暂无数据")
+            return
+        }
         guard let string = self.square?[indexPath.row].properties?.uri else {
             let categoryId: String = "0"
             let title: String = self.square?[indexPath.row].title ?? ""

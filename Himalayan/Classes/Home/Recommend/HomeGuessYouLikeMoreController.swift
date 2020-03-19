@@ -30,7 +30,7 @@ class HomeGuessYouLikeMoreController: HYBaseViewController {
         self.navigationItem.title = "猜你喜欢"
         self.view.addSubview(self.collectionView)
         self.collectionView.snp.makeConstraints {
-            $0.edges.equalToSuperview()
+            $0.left.right.height.top.equalToSuperview()
         }
         loadData()
     }
