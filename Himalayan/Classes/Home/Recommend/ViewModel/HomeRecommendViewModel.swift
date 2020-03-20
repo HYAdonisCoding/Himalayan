@@ -45,7 +45,17 @@ extension HomeRecommendViewModel {
                     if let recommendList = JSONDeserializer<RecommendListModel>.deserializeModelArrayFrom(json: json["list"].description) {
                         self.recommendList = recommendList as? [RecommendListModel]
                     }
-                    
+//                    if let list = JSONDeserializer<HomeRecommendModel>.deserializeModelArrayFrom(json: json["list"].description) {
+//                        for model in list {
+//                            if (model != nil && model?.moduleType == "guessYouLike") {
+//                                print("guessYouLike: \(String(describing: model))");
+//                                self.guessYouLikeList = model?.list as! [GuessYouLikeModel]?
+//                            }
+//                        }
+//                    }
+                    if let square = JSONDeserializer<GuessYouLikeModel>.deserializeModelArrayFrom(json: json["list"][3]["list"].description) {
+                        self.guessYouLikeList = square as? [GuessYouLikeModel]
+                    }
                     if let focus = JSONDeserializer<FocusModel>.deserializeFrom(json: json["list"][0]["list"][0].description) {
                         self.focus = focus
                     }
@@ -100,6 +110,7 @@ extension HomeRecommendViewModel {
         let itemNums = (self.homeRecommendList?[indexPath.section].list?.count)!/3
         let count = self.homeRecommendList?[indexPath.section].list?.count
         let moduleType = self.homeRecommendList?[indexPath.section].moduleType
+        print(moduleType)
         if moduleType == "focus" {
             return CGSize.init(width: ScreenWidth, height: 360)
         } else if moduleType == "square" || moduleType == "topBuzz" {

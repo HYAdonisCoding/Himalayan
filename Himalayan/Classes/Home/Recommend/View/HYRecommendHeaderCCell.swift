@@ -119,6 +119,7 @@ extension HYRecommendHeaderCCell: UICollectionViewDelegate, UICollectionViewData
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        print(indexPath.section)
         if indexPath.section == 0 {
             let cell: HYRecommendGridCCell = collectionView.dequeueReusableCell(withReuseIdentifier: "HYRecommendGridCCell", for: indexPath) as! HYRecommendGridCCell
             cell.square = self.square?[indexPath.row]

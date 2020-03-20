@@ -11,7 +11,6 @@ import UIKit
 class HYRecommendGridCCell: HYBaseCollectionViewCell {
     private lazy var imageView: UIImageView = {
         let name = UIImageView()
-        
         return name
     }()
     private lazy var titleLabel: UILabel = {

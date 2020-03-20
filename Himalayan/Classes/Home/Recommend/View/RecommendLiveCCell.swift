@@ -52,7 +52,6 @@ class RecommendLiveCCell: HYBaseCollectionViewCell {
         self.imageView.snp.makeConstraints { (make) in
             make.left.top.right.equalToSuperview()
             make.bottom.equalToSuperview().offset(-60)
-            make.height.equalTo(20)
         }
         
         self.imageView.addSubview(self.categoryLabel)
@@ -66,7 +65,7 @@ class RecommendLiveCCell: HYBaseCollectionViewCell {
         }
         
         self.addSubview(self.titleLabel)
-        self.subLabel.snp.makeConstraints {
+        self.titleLabel.snp.makeConstraints {
             $0.left.right.equalToSuperview()
             $0.top.equalTo(self.imageView.snp.bottom)
             $0.height.equalTo(20)
