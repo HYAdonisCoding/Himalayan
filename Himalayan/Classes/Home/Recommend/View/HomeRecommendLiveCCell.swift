@@ -69,7 +69,7 @@ class HomeRecommendLiveCCell: HYBaseCollectionViewCell {
             if case let .success(respone) = result {
                 /// 解析数据
                 let data = try? respone.mapJSON()
-                let json = JSON(data)
+                let json = JSON(data!)
                 if let mappedObject = JSONDeserializer<LiveModel>.deserializeModelArrayFrom(json: json["data"]["list"].description) {
                     self.live = mappedObject as? [LiveModel]
                     self.collectionView.reloadData()

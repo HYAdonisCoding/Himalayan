@@ -110,7 +110,7 @@ extension HomeRecommendViewModel {
         let itemNums = (self.homeRecommendList?[indexPath.section].list?.count)!/3
         let count = self.homeRecommendList?[indexPath.section].list?.count
         let moduleType = self.homeRecommendList?[indexPath.section].moduleType
-        print(moduleType)
+//        print(moduleType)
         if moduleType == "focus" {
             return CGSize.init(width: ScreenWidth, height: 360)
         } else if moduleType == "square" || moduleType == "topBuzz" {
